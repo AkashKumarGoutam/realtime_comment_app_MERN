@@ -1,0 +1,22 @@
+{  
+  "name": "realtime-comment-app",
+  "version": "1.0.0",
+  "description": "comment app",
+  "main": "server.js",
+  "keywords": [
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Akash Kumar <akashkumargoutam216@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  }
+}
